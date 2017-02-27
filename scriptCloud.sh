@@ -11,7 +11,6 @@ sudo service sshd restart
 
 sudo useradd -p $(openssl passwd -1 CloudFi) CloudFi
 
-
 #Adding to the sudoers file
 sudo usermod -a -G wheel CloudFi
 
